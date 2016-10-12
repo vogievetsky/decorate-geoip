@@ -1,6 +1,6 @@
 {
   "name": "decorate-geoip",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Decorates a line JSON stream with geoio info",
   "keywords": [
     "decorate",
