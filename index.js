@@ -2,7 +2,6 @@
 
 var geoip = require('geoip-lite');
 var byline = require('byline');
-var combinedStream = require('combined-stream');
 var through2 = require('through2');
 
 const argv = require('yargs')
