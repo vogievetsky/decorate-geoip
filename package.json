@@ -1,0 +1,32 @@
+{
+  "name": "decorate-geoip",
+  "version": "0.2.0",
+  "description": "Decorates a line JSON stream with geoio info",
+  "keywords": [
+    "decorate",
+    "geoip"
+  ],
+  "main": "index.js",
+  "bin": "bin/decorate-geoip",
+  "files": [
+    "bin/",
+    "index.js"
+  ],
+  "dependencies": {
+    "byline": "5.0.0",
+    "geoip-lite": "1.1.8",
+    "through2": "2.0.1",
+    "yargs": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd node_modules/geoip-lite; npm run-script updatedb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/implydata/stats.git"
+  },
+  "author": "Vadim Ogievetsky",
+  "license": "MIT"
+}
